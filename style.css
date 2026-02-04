@@ -1,0 +1,76 @@
+body{
+    background: #737373;
+}
+
+/*-- Style Code for Navigation --*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0D0D0D;
+    padding: 10px;
+}
+
+.navbar img{
+    display: flex;
+    height: 50px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.navlinks {
+    display: flex;
+    list-style: none;
+}
+
+.navlinks a{
+    font-family: "TASA Explorer", sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.navlinks :hover a{
+    color: #A6A6A6
+}
+
+/*-- Style Code for Information Sections --*/
+.infosection {
+    background-color: #0D0D0D;
+    height: 500px;
+    width: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+}
+
+.infosection h1{
+    font-family: "TASA Explorer", sans-serif;
+    color: white;
+    font-size: 50px;
+    padding: 25px;
+}
+
+.infosection p{
+    font-family: "TASA Explorer", sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 25px;
+
+}
+
+.infosection img{
+    height:250px;
+    width: auto;
+}
