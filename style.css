@@ -79,25 +79,31 @@ body {
     padding-bottom: 20px;
 }
 
-
-.test {
-    background-color: black;
-    width: 1000px;
-    padding: 25px;
-}
-
 .container {
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px 200px;
-    gap: 10px;
+    grid-template-rows: 300px;
+    gap: 20px;
 }
 
 .griditem {
-    color: black;
-    background: white;
+    background-color: grey;
+    width: 300px;
+    list-style: none;
+    padding: 25px;
 }
 
+.griditem a {
+    font-family: "TASA Explorer", sans-serif;
+    color: white;
+    letter-spacing: 2.5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.griditem a:hover, .griditem a:focus {
+    color: black;
+}
 
 /*-- Footer --*/
 .footer {
