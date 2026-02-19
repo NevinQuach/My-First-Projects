@@ -79,6 +79,26 @@ body {
     padding-bottom: 20px;
 }
 
+
+.test {
+    background-color: black;
+    width: 1000px;
+    padding: 25px;
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap: 10px;
+}
+
+.griditem {
+    color: black;
+    background: white;
+}
+
+
 /*-- Footer --*/
 .footer {
     background-color: black;
