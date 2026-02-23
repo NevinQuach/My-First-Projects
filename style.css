@@ -42,6 +42,46 @@ body {
     color: grey;
 }
 
+/*-- Drop Down Menu --*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  min-width: 200px;
+}
+
+.dropdown-content a , .dropdown button {
+  background-color: black;
+  color: white;
+  font-family: "TASA Explorer", sans-serif;
+  padding: 10px;
+  font-size: 20px;
+  letter-spacing: 2.5px;
+}
+
+.dropdown-content a {
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown button {
+  border: none;
+  display: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown button:hover , .dropdown-content a:hover {
+  color: grey;
+}
+
 /*-- Section Setup --*/
 .sectionsetup {
     display: flex;
@@ -159,6 +199,14 @@ body {
         width: 550px;
         padding: 25px;
     }
+
+    .dropdown button {
+    display: block;
+    }
+
+    .navlinks {
+    display: none;
+    }
 }
 
 @media (max-width: 650px) {
@@ -181,6 +229,18 @@ body {
 
     .griditem {
         width: 350px;
+        padding: 25px;
+    }
+}
+
+@media (max-width: 450px) {
+    .introduction {
+        width: 300px;
+        padding: 25px;
+    }
+
+    .griditem {
+        width: 250px;
         padding: 25px;
     }
 }
