@@ -1,0 +1,134 @@
+body {
+    background: grey;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*-- Navigation --*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 10px;
+}
+
+.navbar img{
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+.navlinks {
+    display: flex;
+    list-style: none;
+}
+
+.navlinks a {
+    font-family: "TASA Explorer", sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    letter-spacing: 2.5px;
+}
+
+.navlinks a:hover, .navlinks a:focus{
+    color: grey;
+}
+
+/*-- Drop Down Menu --*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  min-width: 200px;
+  padding-top: 20px
+}
+
+.dropdown-content a , .dropdown button {
+  background-color: black;
+  color: white;
+  font-family: "TASA Explorer", sans-serif;
+  padding: 10px;
+  font-size: 20px;
+  letter-spacing: 2.5px;
+}
+
+.dropdown-content a {
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown button {
+  border: none;
+  display: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown button:hover , .dropdown-content a:hover {
+  color: grey;
+}
+
+/*-- Section Setup --*/
+.sectionsetup {
+    display: flex;
+    justify-content: center; 
+    margin: 25px;
+}
+
+/*-- Sample Form --*/
+.sampleform {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 1000px;
+    padding: 25px;
+}
+
+.sampleform h1 {
+    font-family: "TASA Explorer", sans-serif;
+    color: white;
+    letter-spacing: 2.5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/*-- Footer --*/
+.footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+}
+
+.footer p {
+    font-family: "TASA Explorer", sans-serif;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 2.5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
