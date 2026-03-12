@@ -91,8 +91,8 @@ body {
     margin: 25px;
 }
 
-/*-- Sample Form --*/
-.sampleform {
+/*-- Pratice Button --*/
+.samplebutton {
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -102,14 +102,27 @@ body {
     padding: 25px;
 }
 
-.sampleform h1 {
+.samplebutton h1 {
     font-family: "TASA Explorer", sans-serif;
     color: white;
     letter-spacing: 2.5px;
+    font-size: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 25px;
     padding-right: 25px;
+}
+
+.testbutton {
+    background-color: grey;
+    font-family: "TASA Explorer", sans-serif;
+    color: white;
+    letter-spacing: 2.5px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /*-- Footer --*/
