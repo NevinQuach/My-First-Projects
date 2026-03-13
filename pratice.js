@@ -15,6 +15,6 @@ let nameinput = document.getElementById("nameinput");
 
 testbutton.addEventListener("click", function() {
     let username = nameinput.value;
-    numbermessage.textContent = "Hello " + username;
+    numbermessage.textContent = "Hello " + username + ", Have a Nice day";
     numbermessage.style.display = "block";
 });
