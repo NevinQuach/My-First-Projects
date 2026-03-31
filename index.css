@@ -133,6 +133,12 @@ body {
     width: 300px;
     list-style: none;
     padding: 25px;
+    transition: transform 0.5s ease
+}
+
+.griditem:hover {
+    transform: scale(1.025);
+    transition: transform 0.5s ease
 }
 
 .griditem a {

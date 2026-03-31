@@ -125,6 +125,17 @@ body {
     margin-bottom: 10px;
 }
 
+#testbutton {
+  cursor: pointer;
+  transition: transform 0.5s ease
+}
+
+#testbutton:hover {
+  color: black;
+  transform: scale(1.05);
+  transition: transform 0.5s ease
+}
+
 #nameinput::placeholder {
   color: white;
 }
